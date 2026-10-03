@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff8f8;
+    color: #292326;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #fff5f7,
+        #ffe8ee,
+        #fffaf5
+    );
+}
+
+
+/* TOP BAR */
+
+.top {
+    text-align: center;
+    padding: 10px;
+    background-color: #292326;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.top p {
+    margin: 0;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 45px 20px 45px;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f8dfe4;
+    box-shadow: 0 15px 40px rgba(70, 35, 45, 0.12);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* BRAND NAME */
+
+h1 {
+    margin: 30px 0 8px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+
+/* SUBTITLE */
+
+.subtitle {
+    margin: 0;
+    color: #a96d7d;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+/* LOCATION */
+
+.location {
+    margin-top: 18px;
+    color: #999093;
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+
+/* MAIN */
+
+main {
+    width: 90%;
+    max-width: 720px;
+    margin: auto;
+}
+
+
+/* ABOUT SECTION */
+
+.intro {
+    padding: 35px 10px 45px;
+    border-top: 1px solid #eadcdf;
+}
+
+
+/* SMALL TITLE */
+
+.small-title {
+    margin: 0 0 15px;
+    color: #b47787;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+/* ABOUT HEADING */
+
+.intro h2 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 34px;
+    line-height: 1.25;
+    font-weight: normal;
+}
+
+
+/* ABOUT TEXT */
+
+.text {
+    max-width: 550px;
+    margin-top: 20px;
+    color: #777174;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+
+/* SOCIAL SECTION */
+
+.social {
+    padding: 40px 0;
+}
+
+
+/* SOCIAL CARD */
+
+.social-card {
+    min-height: 85px;
+    margin-bottom: 14px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #292326;
+    background-color: white;
+    border: 1px solid #eadcdf;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(90, 50, 60, 0.05);
+    transition: 0.3s;
+}
+
+
+/* SOCIAL ICON */
+
+.social-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background-color: #f5dce2;
+    color: #a45e73;
+    font-size: 23px;
+}
+
+
+/* SOCIAL TEXT */
+
+.social-text {
+    margin-left: 18px;
+}
+
+.social-text h3 {
+    margin: 0 0 5px;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.social-text p {
+    margin: 0;
+    color: #999093;
+    font-size: 13px;
+}
+
+
+/* ARROW */
+
+.arrow {
+    margin-left: auto;
+    color: #b47787;
+    font-size: 23px;
+}
+
+
+/* SOCIAL HOVER */
+
+.social-card:hover {
+    transform: translateY(-4px);
+    border-color: #d8a8b5;
+    box-shadow: 0 12px 25px rgba(90, 50, 60, 0.10);
+}
+
+
+/* ORDER SECTION */
+
+.order {
+    margin: 40px 0;
+    padding: 45px 35px;
+    background-color: #292326;
+    border-radius: 25px;
+    color: white;
+}
+
+.order h2 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: normal;
+}
+
+.order .small-title {
+    color: #e8b8c4;
+}
+
+.order p:not(.small-title) {
+    max-width: 500px;
+    margin: 20px 0;
+    color: #d8ced1;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+
+/* CONTACT BUTTON */
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    padding: 14px 20px;
+    background-color: #f3cbd5;
+    color: #292326;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.contact-button span {
+    font-size: 20px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    transform: translateX(3px);
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 1px solid #eadcdf;
+}
+
+.footer-logo {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #8c8286;
+    font-size: 13px;
+}
+
+footer .copyright {
+    margin-top: 25px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 40px 15px;
+    }
+
+    .logo {
+        width: 165px;
+        height: 165px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+    }
+
+    .location {
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+
+    .intro h2 {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .social-card {
+        min-height: 75px;
+        padding: 12px 15px;
+    }
+
+    .social-icon {
+        width: 46px;
+        height: 46px;
+        font-size: 20px;
+    }
+
+    .social-text {
+        margin-left: 13px;
+    }
+
+    .social-text h3 {
+        font-size: 17px;
+    }
+
+    .social-text p {
+        font-size: 11px;
+    }
+
+    .order {
+        padding: 35px 25px;
+    }
+
+    .order h2 {
+        font-size: 27px;
+    }
+
+    .contact-button {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
